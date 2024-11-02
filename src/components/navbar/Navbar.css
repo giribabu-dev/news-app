@@ -1,0 +1,10 @@
+.news_logo {
+    width: 170px;
+    height: 65px;
+}
+.nav-link {
+    color: black;
+    font-size: 18px;
+    /* border-bottom: 2px solid green; */
+    margin: 0px 5px;
+}
