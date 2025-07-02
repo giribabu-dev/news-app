@@ -20,6 +20,13 @@ function NewsBoard() {
             })
     }, [category]);
 
+    // useEffect(async ()=> {
+    //     // let url1 = `https://newsapi.org/v2/everything?q=tesla&apiKey=${import.meta.env.VITE_API_KEY}`;
+    //     let url1 = `https://newsapi.org/v2/everything?q=india&apiKey=${import.meta.env.VITE_API_KEY}`;
+    //     const data = await axios.get(url1);
+    //     console.log(data)
+    // }, [])
+
     return (
         <div className="container-fluid py-5">
             <h2 className="text-center">Latest <span className="badge bg-danger">News</span></h2>

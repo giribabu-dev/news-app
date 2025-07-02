@@ -6,7 +6,7 @@ function NewsItem({ news }) {
     const { author, description, publishedAt, title, url, urlToImage, } = news;
 
     return (
-        <div className="col-6 col-md-4 col-lg-3">
+        <div className="col-12 col-md-4 col-lg-3">
             <div className="card h-100 bg-dark text-light p-2">
                 <img src={urlToImage ? urlToImage : newsImage} className="card-img-top" height={210} alt="image..." />
                 <div className="card-body">
